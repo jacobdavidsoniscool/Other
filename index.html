@@ -3,10 +3,19 @@
   <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width-device-width, initial-scale=1.0'>
-    <title>Google Docs</title>
+    <title>Home - Classroom</title>
+    <script defer>
+      function openThing(url) {
+        var win = window.open('');
+        win.document.write('<iframe src="' + url +'" frameborder="0"></iframe>');
+win.document.write('<style>iframe {width: 100%; height: 100%; frameborder: 0; border: none; margin: 0; padding: 0;} html, body { margin: 0; padding: 0px;}</style>');
+      }
   </head>
   <body>
-    <h1 class='header'>
-      Proxies
+    <header><h1>Other</h1></header>
+    <p>Currently, we have nothing here (besides the suggestion form). We apologize for the inconvenience.</p>
+    <button onclick='openThing("https://forms.gle/Pb62vuyhJqMTzaCS7")'>
+      Suggestion Form
+    </button>
   </body>
 </html>
